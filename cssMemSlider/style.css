@@ -9,18 +9,18 @@ body {
 
 .container{
     display: grid;
-    max-width: 1280px;
+    max-width: 700px;
     margin: 0 auto;
     grid-template-areas:
       'slider slider'
       'descr nav';
-    grid-row-gap: 30px;
+    grid-row-gap: 15px;
     background-color: transparent;
   }
   
   .slider__wrapper {
-    max-width: 1280px;
-    margin: 70px auto 0;
+    max-width: 700px;
+    margin: 30px auto 0;
     overflow: hidden;
     grid-area: slider;
     border-radius: 10px;
@@ -28,7 +28,7 @@ body {
   .slider {
     display: flex;
     width: 400%;
-    height: 600px;
+    height: 700px;
   }
   .input {
     visibility: hidden;
@@ -41,7 +41,7 @@ body {
   .slide img {
     width: 100%;
     height: 100%;
-    border-radius: 10px;
+    border-radius: 15px;
   }
   
   .slider__descr {
@@ -50,7 +50,7 @@ body {
   
   .slider__navigation {
     grid-area: nav;
-  
+    margin-left: 18rem;
     display: flex;
   }
   
@@ -131,7 +131,7 @@ body {
     color: white;
     display: flex;
     flex-wrap: nowrap;
-    width: 920px;
+    width: 1440px;
     transition: 0.6s;
   }
   .descr__item {
