@@ -196,6 +196,7 @@ body {
       .slider__text{
         order: +1;
         font-size: 150%;
+        align-self: flex-start;
       }
       .slider__nav{
         margin-left: 0;
